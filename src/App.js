@@ -1,3 +1,9 @@
+import { BrowserRouter } from 'react-router-dom';
+
 export const App = () => {
-  return <div>123</div>;
+  return (
+    <BrowserRouter>
+      <div>123</div>
+    </BrowserRouter>
+  );
 };
