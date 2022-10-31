@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test card 1`] = `
+<li
+  class="sc-fEXmlR hhtYUo"
+  role="card"
+>
+  <p
+    class="sc-bjfHbI BzANE"
+  >
+    Some name
+  </p>
+  <div
+    class="sc-idXgbr dwFavs"
+  >
+    <div
+      class="sc-dIfARi hKAUbf"
+    >
+      <div
+        class="sc-hHTYSt gjmgcj"
+      >
+        134
+      </div>
+      <span
+        class="sc-dmctIk jvgna"
+      >
+        height
+      </span>
+    </div>
+    <div
+      class="sc-dIfARi hKAUbf"
+    >
+      <div
+        class="sc-hHTYSt gjmgcj"
+      >
+        123
+      </div>
+      <span
+        class="sc-dmctIk jvgna"
+      >
+        mass
+      </span>
+    </div>
+  </div>
+  <div
+    class="sc-cwSeag jMzkyS"
+  >
+    <div
+      class="sc-bcXHqe sc-gswNZR kbRfMT dOSFAp"
+    >
+      male
+    </div>
+  </div>
+</li>
+`;
+
+exports[`Test character card Element in DOM 1`] = `
+<li
+  class="sc-fEXmlR hhtYUo"
+  role="card"
+>
+  <p
+    class="sc-bjfHbI BzANE"
+  >
+    Some name
+  </p>
+  <div
+    class="sc-idXgbr dwFavs"
+  >
+    <div
+      class="sc-dIfARi hKAUbf"
+    >
+      <div
+        class="sc-hHTYSt gjmgcj"
+      >
+        134
+      </div>
+      <span
+        class="sc-dmctIk jvgna"
+      >
+        height
+      </span>
+    </div>
+    <div
+      class="sc-dIfARi hKAUbf"
+    >
+      <div
+        class="sc-hHTYSt gjmgcj"
+      >
+        123
+      </div>
+      <span
+        class="sc-dmctIk jvgna"
+      >
+        mass
+      </span>
+    </div>
+  </div>
+  <div
+    class="sc-cwSeag jMzkyS"
+  >
+    <div
+      class="sc-bcXHqe sc-gswNZR kbRfMT dOSFAp"
+    >
+      male
+    </div>
+  </div>
+</li>
+`;
+
+exports[`Test character card Right data test 1`] = `
+<li
+  class="sc-fEXmlR hhtYUo"
+  role="card"
+>
+  <p
+    class="sc-bjfHbI BzANE"
+  >
+    Some name
+  </p>
+  <div
+    class="sc-idXgbr dwFavs"
+  >
+    <div
+      class="sc-dIfARi hKAUbf"
+    >
+      <div
+        class="sc-hHTYSt gjmgcj"
+      >
+        134
+      </div>
+      <span
+        class="sc-dmctIk jvgna"
+      >
+        height
+      </span>
+    </div>
+    <div
+      class="sc-dIfARi hKAUbf"
+    >
+      <div
+        class="sc-hHTYSt gjmgcj"
+      >
+        123
+      </div>
+      <span
+        class="sc-dmctIk jvgna"
+      >
+        mass
+      </span>
+    </div>
+  </div>
+  <div
+    class="sc-cwSeag jMzkyS"
+  >
+    <div
+      class="sc-bcXHqe sc-gswNZR kbRfMT dOSFAp"
+    >
+      male
+    </div>
+  </div>
+</li>
+`;
+
+exports[`Test character card Snap test 1`] = `
+<li
+  class="sc-fEXmlR hhtYUo"
+  role="card"
+>
+  <p
+    class="sc-bjfHbI BzANE"
+  >
+    Some name
+  </p>
+  <div
+    class="sc-idXgbr dwFavs"
+  >
+    <div
+      class="sc-dIfARi hKAUbf"
+    >
+      <div
+        class="sc-hHTYSt gjmgcj"
+      >
+        134
+      </div>
+      <span
+        class="sc-dmctIk jvgna"
+      >
+        height
+      </span>
+    </div>
+    <div
+      class="sc-dIfARi hKAUbf"
+    >
+      <div
+        class="sc-hHTYSt gjmgcj"
+      >
+        123
+      </div>
+      <span
+        class="sc-dmctIk jvgna"
+      >
+        mass
+      </span>
+    </div>
+  </div>
+  <div
+    class="sc-cwSeag jMzkyS"
+  >
+    <div
+      class="sc-bcXHqe sc-gswNZR kbRfMT dOSFAp"
+    >
+      male
+    </div>
+  </div>
+</li>
+`;

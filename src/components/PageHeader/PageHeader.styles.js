@@ -7,6 +7,8 @@ export const HeaderWraper = styled.header`
   align-items: center;
 
   padding: 10px 157px 3px 157px;
+
+  background: #1f2a63;
   box-shadow: 0px 4px 16px rgba(1, 28, 64, 0.2);
 `;
 

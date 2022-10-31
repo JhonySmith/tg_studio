@@ -16,6 +16,8 @@ export const LinksList = styled.ul`
 export const LinksItem = styled.li`
   margin-right: 74px;
 
+  border-bottom: ${(props) => (props.isActive ? '1px solid white' : 'none')};
+
   &:last-child {
     margin-right: 0;
   }
