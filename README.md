@@ -8,4 +8,4 @@
 
 Тесты:
 
-### `npm test`
+### `npm run test`
