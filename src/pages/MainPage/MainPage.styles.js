@@ -6,16 +6,18 @@ export const PageBg = styled.div`
   height: 1px;
   min-height: 100vh;
 
-  background: linear-gradient(180deg, #1f2a63 0%, #17002f 100%);
+  display: flex;
+  flex-direction: column;
 `;
 
 export const PageWraper = styled.div`
-  max-width: 1440px;
-  height: 100%;
-  margin: 0 auto;
+  box-sizing: border-box;
 
-  background: url(${BgImage}) no-repeat right 50px;
+  background: url(${BgImage}) no-repeat right 50px,
+    linear-gradient(180deg, #1f2a63 0%, #17002f 100%);
   background-size: 50%, auto;
+
+  height: 100%;
 `;
 
 export const PageTextWraper = styled.div`

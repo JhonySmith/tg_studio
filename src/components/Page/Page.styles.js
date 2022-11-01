@@ -1,9 +1,15 @@
 import styled from 'styled-components';
 
 export const PageWraper = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+`;
+
+export const FixedWraper = styled.div`
   max-width: 1440px;
-  height: 100%;
   margin: 0 auto;
 
-  background-size: 50%, auto;
+  flex-grow: 1;
 `;

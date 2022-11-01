@@ -14,7 +14,8 @@ export const MainPage = () => {
 
   return (
     <S.PageBg>
-      <Page>
+      <PageHeader />
+      <S.PageWraper>
         <S.PageTextWraper>
           <S.PageSlogan>Find all your favorite character</S.PageSlogan>
           <S.PageComment>
@@ -22,7 +23,7 @@ export const MainPage = () => {
           </S.PageComment>
           <PageButton onClick={buttonClickHandler}>See more...</PageButton>
         </S.PageTextWraper>
-      </Page>
+      </S.PageWraper>
     </S.PageBg>
   );
 };

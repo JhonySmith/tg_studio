@@ -13,7 +13,7 @@ export const CharacterDetails = (props) => {
     character;
 
   return (
-    <PopupWraper closeHandler={closeHandler}>
+    <PopupWraper closeHandler={closeHandler} role="details">
       <S.DetailsBlock>
         <S.DetailsIconBlock>
           <S.DetailsIcon src={getIcon(gender)} />
@@ -30,11 +30,13 @@ export const CharacterDetails = (props) => {
           </S.DetailsInfoParamsBlock>
           <S.RoundParamsWraper>
             <S.RoundParamBlock>
-              <S.RoundParam>{height}</S.RoundParam>
+              <S.RoundParam>
+                {height !== 'unknown' ? height : 'N/A'}
+              </S.RoundParam>
               <S.RoundParamLabel>height</S.RoundParamLabel>
             </S.RoundParamBlock>
             <S.RoundParamBlock>
-              <S.RoundParam>{mass}</S.RoundParam>
+              <S.RoundParam>{mass !== 'unknown' ? mass : 'N/A'}</S.RoundParam>
               <S.RoundParamLabel>mass</S.RoundParamLabel>
             </S.RoundParamBlock>
           </S.RoundParamsWraper>

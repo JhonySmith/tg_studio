@@ -3,8 +3,7 @@ import LoadIcon from 'assets/images/loader.svg';
 import { karlaFont } from 'styles/variables/fonts';
 
 export const CardsListBlock = styled.div`
-  position: relative;
-
+  max-width: 1127px;
   margin-top: 20px;
 `;
 
@@ -24,9 +23,9 @@ export const ListHeader = styled.h2`
 `;
 
 export const CardsList = styled.ul`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 
   list-style-type: none;
   padding: 0;

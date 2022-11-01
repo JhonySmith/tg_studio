@@ -33,6 +33,8 @@ export const LinkText = styled(Link)`
   text-decoration: none;
 
   &:hover {
-    opacity: 0.8;
+    opacity: ${(props) => (props.isActive ? '1' : '0.8')};
   }
+
+  cursor: ${(props) => (props.isActive ? 'default' : 'pointer')};
 `;

@@ -1,5 +1,5 @@
 import { CharactersCard } from './CharactersCard.jsx';
-import { render, screen } from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
 
 const mockCharacter = {
@@ -35,5 +35,15 @@ describe('Test character card', () => {
     expect(mass).toBeInTheDocument();
     expect(height).toBeInTheDocument();
     expect(gender).toBeInTheDocument();
+  });
+
+  test('Click card test', () => {
+    render(<CharactersCard character={mockCharacter} />);
+
+    const card = screen.getByRole('card');
+    fireEvent.click(card);
+
+    const details = screen.getByRole('details');
+    expect(details).toBeInTheDocument();
   });
 });

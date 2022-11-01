@@ -2,8 +2,9 @@ import styled from 'styled-components';
 import { karlaFont } from 'styles/variables/fonts';
 
 export const Card = styled.li`
+  box-sizing: border-box;
+
   width: 351.9px;
-  margin-bottom: 45px;
   padding: 6px 26px;
 
   background: #f0f0f0;

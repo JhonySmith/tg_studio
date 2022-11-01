@@ -5,7 +5,7 @@ export const Page = ({ children, headerHide }) => {
   return (
     <S.PageWraper>
       {headerHide ? null : <PageHeader />}
-      {children}
+      <S.FixedWraper>{children}</S.FixedWraper>
     </S.PageWraper>
   );
 };
